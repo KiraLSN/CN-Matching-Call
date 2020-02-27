@@ -18,9 +18,9 @@
 
 
 $base_dados  = 'line-feeder-db';
-$usuario_bd  = 'Luciano';
-$senha_bd    = 'Luciano405060#';
-$host_db     = '105.103.29.24';
+$usuario_bd  = 'root';
+$senha_bd    = '';
+$host_db     = 'localhost';
 $charset_db  = 'UTF8';
 $conexao_pdo = null; 
 $dsn_Options = [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION];
